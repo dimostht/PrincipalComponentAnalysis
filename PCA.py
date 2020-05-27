@@ -26,6 +26,7 @@ def pca(matrix,V):
 # and the Sets after the KMeans
 def plot(m,Ltr,n,sets):
     plt.figure()
+    
     plt.subplot(2,1,1)
     plt.title("The points with PCA for V = 2")
     # numbers of 0,1,2,3's in N
